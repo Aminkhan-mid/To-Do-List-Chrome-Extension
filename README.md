@@ -13,7 +13,7 @@ A Chrome extension to help you manage and track your tasks, inspired by Zoro fro
 ## Installation
 1. **Download/Clone the Repository**: 
    ```bash
-   git clone https://github.com/your-username/zoro-todo-list.git
+   git clone https://github.com/Aminkhan-mid/To-Do-List-Chrome-Extension.git
 
 2. **Load the Extension in Chrome**
 
