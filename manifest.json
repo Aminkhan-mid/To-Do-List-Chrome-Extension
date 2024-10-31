@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "description": "Boost Your Productivity with Zoro Themed Todo List!",
+    "version": "1.0",
+    "name": "Zoro's Todo List",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "icon16.png",
+            "48": "icon48.png",
+            "128": "icon128.png"
+        },
+        "default_title": "Zoro's TO-DO!"
+    },
+        "icons": {
+            "16": "icon16.png",
+            "48": "icon48.png",
+            "128": "icon128.png"
+        }
+    }
+    

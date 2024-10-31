@@ -1,0 +1,146 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body{
+    background-color:#f1faee ;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    min-width: 400px;
+    overflow-y: auto;
+}
+.container{
+    flex: 1;
+    width: 80%;
+    max-width: 500px;
+    margin:0px auto;
+    border-radius: 20px;
+    padding: 20px 0px;
+}
+
+h1{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+h1 a{
+    list-style-type: none;
+}
+h1 img{
+    width: 45px;
+    border-radius: 20px;
+    border: 1px solid #121;
+    cursor: pointer;
+}
+label{
+    font-size: 24px;
+    font-weight: 500;
+    display: block;
+}
+input{
+    accent-color: #211e1b;
+    border-radius: 10px;
+    padding: 10px 25px;
+    margin: 8px 20px;
+    border: 2px solid #B7F397;
+    box-shadow: 0px 0px 5px #B7F397;
+    transition: all 0.6s ease;
+}
+input:hover{
+    box-shadow: 3px 3px 3px darkgreen;
+}
+input::placeholder{
+    font-weight: bold;
+}
+.addBtn{
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 2px solid #B7F397;
+    background-color: #B7F397;
+    border: 1px solid black;
+    font-weight: bold;
+    transition: all 0.5s;
+    margin: 0;
+}
+.addBtn:hover{
+    background-color: #e63946;
+    color: beige;
+    text-shadow: 0px 0px 1px beige;
+}
+.addBtn:active{
+    background-color: #B7F397;
+    color: black;
+    border: 2px solid #B7F397;
+    box-shadow: 0px 0px 5px #B7F397;
+}
+
+.delBtn{
+    background-color: #121;
+    color: beige;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: all 0.5s;
+    margin: 0;
+}
+.delBtn:hover{
+    background-color: gainsboro;
+    color: black;
+}
+.delBtn:active{
+    background-color: #121;
+    color: beige;
+}
+
+.del-btn{
+    background-color: #e63946;
+    color: #f1faee;
+    border-radius: 10px;
+    padding: 4px;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px black;
+}
+.del-btn:hover,
+.del-btn:active{
+    background-color: #d72e3c;
+    box-shadow: 2px 2px 2px #121;
+}
+.ulTask{
+    list-style-type: none;
+}
+.liUl, .ulTask, .list{
+    margin-top: 20px;
+    text-align: left;
+    padding: 0px 8px;
+}
+.list{
+    font-size: 20px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+}
+
+.footBottom{
+    background-color: #121;
+    color: #f1faee;
+    padding:1px;
+}
+.designer{
+    text-transform: uppercase;
+    color: #f1faee;
+    text-decoration: none;
+    cursor: pointer;
+}
+.designer:hover,
+.designer:active{
+    color: #B7F397;
+    text-decoration: overline;
+}
+
+
+
+
+
